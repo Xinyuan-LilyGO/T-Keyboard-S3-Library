@@ -1,0 +1,45 @@
+#######################################
+# Syntax Coloring Map for T-Keyboard-S3
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+TKeyboardS3Class	KEYWORD1
+TKeyboardS3	KEYWORD1
+Display	KEYWORD1
+BoardConfig	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+end	KEYWORD2
+update	KEYWORD2
+display	KEYWORD2
+key	KEYWORD2
+setBrightness	KEYWORD2
+isInitialized	KEYWORD2
+pins	KEYWORD2
+
+#######################################
+# Members (KEYWORD2)
+#######################################
+
+display1	KEYWORD2
+display2	KEYWORD2
+display3	KEYWORD2
+display4	KEYWORD2
+btn1	KEYWORD2
+btn2	KEYWORD2
+btn3	KEYWORD2
+btn4	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+DISPLAY_COUNT	LITERAL1
+KEY_COUNT	LITERAL1

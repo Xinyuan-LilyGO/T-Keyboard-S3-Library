@@ -1,0 +1,23 @@
+{
+  "name": "LILYGO T-Keyboard-S3 Library",
+  "version": "0.1.0",
+  "description": "Driver library for LILYGO T-Keyboard-S3 (four GC9107 128x128 IPS displays + four keys). Displays use LovyanGFX with per-display chip-select multiplexing; keys are exposed as ButtonSense instances.",
+  "keywords": ["lilygo", "esp32s3", "keyboard", "display", "gc9107", "lovyangfx", "buttonsense"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xinyuan-LilyGO/T-Keyboard-S3.git"
+  },
+  "authors": [
+    { "name": "lbuque", "email": "1102390310@qq.com" }
+  ],
+  "license": "MIT",
+  "frameworks": ["arduino"],
+  "platforms": ["espressif32"],
+  "build": {
+    "srcDir": "src"
+  },
+  "dependencies": {
+    "lovyan03/LovyanGFX": "^1.1.0",
+    "ButtonSense": "*"
+  }
+}
